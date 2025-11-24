@@ -1,0 +1,61 @@
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body{
+      width: 100vw;
+      height: 100vh;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  #hanuman{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+#head{
+     color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 12px;   
+}
+
+  .tictac{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 23px;
+    gap: 3px;
+}  
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     width: 90px;
+     height: 90px;
+     background-color: azure;
+     gap: 3px;
+     border-radius: 12px;
+     cursor: pointer;
+ }
+   .winnerclass{
+    background-color: lightgreen;
+   }
+ button{
+    width: 200px;
+    font-size: 20px;
+    margin-top: 34px;
+    cursor: pointer;
+   }
+
+   .box:hover {
+    background-color: cornsilk;
+    transition: 0.2s;
+}
