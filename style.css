@@ -13,13 +13,7 @@
      justify-content: center;
      align-items: center;
   }
-  #hanuman{
-    color: orange;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 100px;
-}
+ 
 #head{
      color: white;
     display: flex;

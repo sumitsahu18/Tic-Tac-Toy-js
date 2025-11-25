@@ -1,11 +1,11 @@
    console.log("jay shree ram")
-
+  
          
    const tictac = document.querySelector('.tictac')
    const boxes = document.querySelectorAll('.box')  // bhai ye all bhi kerna padta hai
    const h1 = document.getElementById('head')
    const rbtn = document.getElementById('res')
-
+  
    let currentplayer = "X"
    let count = 0;
    let winningcondition = [
